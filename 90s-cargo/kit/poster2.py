@@ -305,7 +305,65 @@ def poster_E():
 {bar()}"""
     return html(body, css)
 
-POSTERS = {"E_han_mon_cam": poster_E, "A_tong_quan": poster_A, "B_han_tiet_kiem": poster_B, "C_han_vi_que": poster_C, "D_uc_tet": poster_D}
+# ---------- F: Free pickup tận nhà – tuyến Hàn (bài bán hàng) ----------
+def poster_F():
+    css = f"""body{{background:linear-gradient(180deg,#fff 0%,#EEF3FA 70%,#E3EBF6 100%)}}
+.h{{position:absolute;left:56px;top:170px;line-height:1.06}}
+.h .a{{font-size:80px;color:{NAVY}}} .h .b{{display:inline-block;font-size:104px;color:#fff;background:linear-gradient(90deg,{OR2},{OR1});padding:4px 24px 10px;margin:8px 0}}
+.h .c{{font-size:80px;color:{NAVY}}}
+.sub{{position:absolute;left:56px;top:560px;width:560px;font-size:26px;font-weight:700;color:#33435C;line-height:1.4}} .sub b{{color:{OR2}}}
+.price{{position:absolute;right:50px;top:180px;background:{NAVY};border-radius:24px;padding:18px 26px;color:#fff;text-align:center;border:4px solid {OR1};box-shadow:0 12px 24px rgba(13,43,94,.3)}}
+.price p{{font-size:20px;font-weight:800}} .price b{{display:block;font-size:92px;color:{YEL};line-height:1}} .price small{{font-size:18px;font-weight:700;color:#C9D6EC}}
+.zone{{position:absolute;left:56px;top:700px;display:flex;gap:10px}}
+.zone div{{background:#fff;border:3px solid {NAVY};border-radius:40px;padding:8px 16px;font-weight:900;font-size:20px;color:{NAVY};display:flex;gap:8px;align-items:center}}
+.zone svg{{color:{OR2}}}
+.ring{{position:absolute;right:30px;top:540px;width:400px;height:400px;border-radius:50%;border:4px dashed {OR1};display:flex;align-items:center;justify-content:center}}
+.ring .km{{position:absolute;top:-24px;left:50%;transform:translateX(-50%);background:{OR2};color:#fff;font-weight:900;font-size:26px;padding:6px 20px;border-radius:30px;white-space:nowrap}}
+.steps{{position:absolute;left:30px;right:30px;top:1060px;background:{NAVY};border-radius:24px;padding:26px 10px;color:#fff}}
+.steps .i4 svg{{color:{OR1};flex:none}}
+"""
+    body = f"""<div class='abs' style='top:40px;left:56px'>{logo(size=88)}</div>
+<div class='h A'><div class='a'>GỬI HÀNG ĐI HÀN</div><div class='b'>LẤY TẬN NHÀ</div><div class='c'>MIỄN PHÍ 30KM</div></div>
+<div class='price'><p>🇰🇷 HÀN QUỐC</p><b class='A'>75K</b><small>/kg · đơn từ 21kg</small></div>
+<div class='sub'>Free pickup cho <b>đơn từ 20kg</b>. Ở tỉnh xa? Gửi chành xe về kho, <b>90S chụp hình & đóng gói</b> giúp bạn.</div>
+<div class='zone'><div>{ic('pin',22)}TP.HCM</div><div>{ic('pin',22)}BÌNH DƯƠNG</div><div>{ic('pin',22)}ĐỒNG NAI</div></div>
+<div class='ring'><div class='km'>BÁN KÍNH 30KM</div>{bigbox(300)}</div>
+<div class='abs' style='left:70px;top:830px;color:{NAVY}'>{ic('truck',150,NAVY)}</div>
+<div class='abs' style='left:250px;top:870px'>{plane(300,-10)}</div>
+<div class='steps icons4'>
+<div class='i4'>{ic('truck',44)}<div><h4>NHẬN HÀNG</h4><p>Tận nơi hoặc về kho</p></div></div>
+<div class='i4'>{ic('box',44)}<div><h4>ĐÓNG GÓI</h4><p>Hút chân không</p></div></div>
+<div class='i4'>{ic('scale',44)}<div><h4>CÂN – ĐO</h4><p>Chụp hình báo giá</p></div></div>
+<div class='i4'>{ic('clock',44)}<div><h4>3–5 NGÀY</h4><p>Kể từ ngày bay</p></div></div>
+</div>
+{bar()}"""
+    return html(body, css)
+
+# ---------- G: Hỏi đáp – món này gửi sang Úc được không? (bài tương tác) ----------
+def poster_G():
+    css = f"""body{{background:linear-gradient(180deg,#0A1E45 0%,#14408A 60%,#1D4F9E 100%)}}
+.h{{position:absolute;left:40px;right:40px;top:160px;line-height:1.28;text-align:center}}
+.h .a{{font-size:80px;color:#fff}} .h .b{{display:inline-block;font-size:104px;line-height:1.15;color:#fff;background:linear-gradient(90deg,{OR2},{OR1});padding:14px 26px 6px;margin:14px 0}}
+.h .c{{font-size:62px;color:{OR1};white-space:nowrap}}
+.bub{{position:absolute;background:#fff;border-radius:28px;padding:20px 28px;font-size:28px;font-weight:800;color:{NAVY};box-shadow:0 10px 24px rgba(0,0,0,.3)}}
+.bub:after{{content:'';position:absolute;bottom:-18px;width:0;height:0;border:18px solid transparent;border-top-color:#fff;border-bottom:0}}
+.bl:after{{left:40px}} .br:after{{right:40px}}
+.ans{{position:absolute;left:56px;right:56px;top:980px;background:linear-gradient(90deg,{OR2},{OR1});border-radius:24px;padding:22px 28px;color:#fff;font-size:27px;font-weight:800;line-height:1.4;display:flex;gap:20px;align-items:center}}
+.ans b{{color:{YEL}}} .ans svg{{flex:none}}
+.warn{{position:absolute;left:56px;right:56px;top:905px;text-align:center;color:#C9D6EC;font-size:22px;font-weight:700}}
+"""
+    body = f"""<div class='abs' style='top:40px;left:56px'>{logo(dark=True,size=88)}</div>
+<div class='abs' style='right:56px;top:50px;font-size:64px'>🇦🇺</div>
+<div class='h A'><div class='a'>MÓN NÀY GỬI SANG ÚC</div><div class='b'>ĐƯỢC KHÔNG?</div><div class='c'>HỎI 90S TRƯỚC KHI ĐÓNG THÙNG</div></div>
+<div class='bub bl' style='left:56px;top:640px'>Bánh kẹo đóng gói gửi được không? 🍬</div>
+<div class='bub br' style='right:56px;top:770px'>Gạo, đồ khô có bị giữ không? 🤔</div>
+<div class='abs' style='left:50%;top:560px;transform:translateX(-50%);opacity:.0'></div>
+<div class='warn'>Úc kiểm dịch rất chặt – nhất là thực phẩm</div>
+<div class='ans'>{ic('chat',64,'#fff')}<div>Comment hoặc nhắn <b>danh sách đồ</b> – 90S kiểm tra từng món trước khi gửi. Cước <b>135K/kg</b> cho đơn từ 21kg.</div></div>
+{bar()}"""
+    return html(body, css)
+
+POSTERS = {"F_han_pickup": poster_F, "G_uc_hoi_dap": poster_G, "E_han_mon_cam": poster_E, "A_tong_quan": poster_A, "B_han_tiet_kiem": poster_B, "C_han_vi_que": poster_C, "D_uc_tet": poster_D}
 
 async def main(keys):
     async with async_playwright() as p:
