@@ -7,3 +7,5 @@
 | 2026-11-20 11:30 | Hàn 75K/kg – gửi nhiều tiết kiệm (hẹn giờ) | B_han_tiet_kiem.jpg |
 | 2026-11-20 19:30 | Quy trình 4 bước (hẹn giờ) | A_tong_quan.jpg |
 | 2026-11-21 07:30 | Gửi Tết sang Úc (hẹn giờ) | D_uc_tet.jpg |
+| 2026-11-21 11:30 | Hàn 75K/kg – lấy hàng tận nhà free 30km (hẹn giờ) | 20261121_1130_han_free_pickup.jpg |
+| 2026-11-21 19:30 | Hỏi đáp: món này gửi sang Úc được không? (hẹn giờ) | 20261121_1930_uc_hoi_dap.jpg |
