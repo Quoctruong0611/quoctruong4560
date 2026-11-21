@@ -14,7 +14,7 @@ def poster_anh(img, tag, l1, hl, l3, chips):
     css = f"""body{{background:{NAVY}}}
 .ph{{position:absolute;left:0;top:0;width:1080px;height:860px;background:url(data:{mime};base64,{data}) center/cover no-repeat}}
 .sh{{position:absolute;left:0;top:0;width:1080px;height:860px;background:linear-gradient(180deg,rgba(13,43,94,.55) 0%,rgba(13,43,94,0) 22%,rgba(13,43,94,0) 55%,{NAVY} 100%)}}
-.lg{{position:absolute;left:40px;top:34px;background:rgba(255,255,255,.94);border-radius:60px;padding:8px 26px 8px 8px}}
+.lg{{position:absolute;left:40px;top:34px;background:rgba(255,255,255,.94);border-radius:60px;padding:14px 26px}}
 .tag{{position:absolute;right:40px;top:52px;background:{YEL};color:{NAVY};font-weight:900;font-size:22px;letter-spacing:1px;padding:12px 22px;border-radius:40px;display:flex;gap:10px;align-items:center}}
 .dot{{width:14px;height:14px;border-radius:50%;background:{OR2}}}
 .h{{position:absolute;left:48px;right:48px;top:640px;line-height:1.12}}
@@ -26,7 +26,7 @@ def poster_anh(img, tag, l1, hl, l3, chips):
 """
     ch = "".join(f"<div class='chip'><span style='color:{OR1}'>✔</span> {c}</div>" for c in chips if c)
     body = f"""<div class='ph'></div><div class='sh'></div>
-<div class='lg'>{logo(size=74)}</div>
+<div class='lg'>{logo(size=78)}</div>
 <div class='tag'><span class='dot'></span>{tag}</div>
 <div class='h A'><div class='a'>{l1}</div><div class='b'>{hl}</div><div class='c'>{l3}</div></div>
 <div class='chips'>{ch}</div>

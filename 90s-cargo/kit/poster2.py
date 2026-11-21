@@ -6,6 +6,7 @@ from playwright.async_api import async_playwright
 
 OUT = pathlib.Path(__file__).resolve().parent / "posters2"; OUT.mkdir(exist_ok=True)
 NAVY, NAVY2, OR1, OR2, YEL = "#0D2B5E", "#14408A", "#FF8A1F", "#F05A0F", "#FFE55C"
+BRAND_OR, BRAND_CH = "#F27E29", "#363636"  # 2 màu chính trong logo thật
 PHONE = "0334 477 577"
 
 ICON = {
@@ -26,10 +27,16 @@ ICON = {
 def ic(n, s=40, c="currentColor"):
     return f"<svg viewBox='0 0 24 24' width='{s}' height='{s}' style='color:{c}'>{ICON[n]}</svg>"
 
+_LOGO_DIR = pathlib.Path(__file__).resolve().parent / "brand" / "logo"
+def _logo_b64(name):
+    import base64
+    return base64.b64encode((_LOGO_DIR / name).read_bytes()).decode()
+
 def logo(dark=False, size=96):
-    txt = "#fff" if dark else NAVY
-    return f"""<div class='logo'><div class='lc' style='width:{size}px;height:{size}px'><b style='font-size:{size*.38}px'>90S</b><i style='font-size:{size*.14}px'>CARGO</i></div>
-<div class='lt'><b style='color:{txt}'>90S CARGO EXPRESS</b><span>VẬN CHUYỂN QUỐC TẾ</span></div></div>"""
+    """Logo THẬT của 90S Cargo Express (brand/logo). dark=True: chữ 90S trắng cho nền tối; False: bản màu (90S xám than + CARGO cam).
+    size giữ tương thích cũ: chiều cao logo ≈ size*0.9 px."""
+    f = "logo-90s-trang.png" if dark else "logo-90s-mau.png"
+    return f"<img class='logo' src='data:image/png;base64,{_logo_b64(f)}' style='height:{int(size*0.9)}px;width:auto;display:block'>"
 
 def plane(w=460, rot=-10, livery=True):
     return f"""<svg viewBox='0 0 520 200' width='{w}' style='transform:rotate({rot}deg)'>
@@ -57,10 +64,8 @@ def bigbox(w=420):
 <path d='M0 {t} L{w*.36} {t*.25} L{w} {t*.25} L{w*.64} {t}Z' fill='#EAB878'/>
 <path d='M{w*.28} {t} L{w*.6} {t*.25} L{w*.7} {t*.25} L{w*.38} {t}Z' fill='#C9B08C'/>
 <rect x='{w*.28}' y='{t}' width='{w*.1}' height='{h*.3}' fill='#C9B08C'/>
-<circle cx='{w*.2}' cy='{t+(h-t)*.55}' r='{w*.09}' fill='{OR1}'/>
-<text x='{w*.2}' y='{t+(h-t)*.55+w*.03}' text-anchor='middle' font-family='Montserrat' font-weight='900' font-style='italic' font-size='{w*.075}' fill='#fff'>90S</text>
-<text x='{w*.31}' y='{t+(h-t)*.52}' font-family='Montserrat' font-weight='900' font-style='italic' font-size='{w*.06}' fill='{NAVY}'>CARGO</text>
-<text x='{w*.31}' y='{t+(h-t)*.52+w*.05}' font-family='Montserrat' font-weight='800' font-size='{w*.035}' fill='{OR2}'>EXPRESS</text>
+<rect x='{w*.03}' y='{t+(h-t)*.37}' width='{w*.58}' height='{w*.19}' rx='{w*.02}' fill='#fff' opacity='.92'/>
+<image href='data:image/png;base64,{_logo_b64("logo-90s-mau.png")}' x='{w*.05}' y='{t+(h-t)*.4}' width='{w*.54}' height='{w*.15}' preserveAspectRatio='xMidYMid meet'/>
 <g stroke='{NAVY}' stroke-width='2' fill='none' opacity='.75' transform='translate({w*.4},{h*.8})'>
 <rect x='0' y='0' width='{w*.06}' height='{w*.06}'/><path d='M{w*.015} {w*.045}V{w*.015}M{w*.045} {w*.045}V{w*.015}M{w*.008} {w*.025}l{w*.007} -{w*.01} {w*.007} {w*.01}M{w*.038} {w*.025}l{w*.007} -{w*.01} {w*.007} {w*.01}'/>
 <rect x='{w*.08}' y='0' width='{w*.06}' height='{w*.06}'/><path d='M{w*.09} {w*.03}q{w*.02} -{w*.025} {w*.04} 0zM{w*.11} {w*.03}v{w*.022}'/>

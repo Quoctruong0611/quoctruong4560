@@ -72,3 +72,9 @@ Anh Trường muốn: đăng 3 bài/ngày tự động, đăng ngay 5 bài đầ
 - Quy tắc: chữ tiêu đề Anton 2 màu (navy + cam #F05A0F/#FF8A1F), 1 cụm chữ nổi bật trong khối cam,
   vật thể trung tâm là thùng hàng có logo 90S, hàng 4 icon cam kết có vạch ngăn, thanh liên hệ navy dưới cùng.
   Chỉ dùng thông tin thật của doanh nghiệp, không ghi "24/7", "bảo hiểm 100%" khi chưa được xác nhận.
+
+## Nhận diện thương hiệu – LOGO THẬT (chủ page gửi 21/11/2026)
+- Logo: chữ "90S" xám than #363636 + "CARGO" cam #F27E29 có đường bay máy bay cắt ngang, dòng "EXPRESS" bên dưới.
+- File trong `brand/logo/`: `logo-90s-mau.png` (nền trong, dùng trên nền sáng), `logo-90s-trang.png` (chữ 90S trắng, dùng trên nền tối/ảnh), 3 file gốc `logo-goc-*.jpg` (nền trắng, nền xám, nền cam hoàng hôn).
+- Poster: LUÔN dùng hàm `logo()` trong poster2.py (đã nhúng logo thật; dark=True cho nền tối). KHÔNG tự vẽ logo hình tròn hay chữ "90S CARGO" giả. Trên ảnh thật đặt logo màu trong nhãn trắng (poster_anh.py đã làm sẵn).
+- Màu nền poster vẫn giữ navy #0D2B5E + cam như mẫu đã duyệt; cam chính của logo là #F27E29.
