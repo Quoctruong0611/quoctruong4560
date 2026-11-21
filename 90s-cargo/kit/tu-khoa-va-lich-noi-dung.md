@@ -22,7 +22,7 @@ Nghiên cứu ngày 19/11/2026. Claude Code dùng file này để soạn bài m�
 - Úc khuyến cáo người thân ở nước ngoài kiểm tra món được phép trước khi gửi quà Tết (agriculture.gov.au)
 - Hơn 80.000 du học sinh Việt Nam ở Hàn (01/2025), dẫn đầu sinh viên quốc tế tại Hàn từ 2021 (baotravinh.vn)
 - Nhóm Facebook khách hay hỏi: "Du học sinh Việt Nam ở Úc", "Người Việt tại Perth", các nhóm du học sinh/lao động Hàn
-- Đối thủ: GHN ghi gửi đi Hàn ~105.000đ/kg cho 50–99kg → 75K/kg từ 21kg là lợi thế lớn
+- Đối thủ: GHN ghi gửi đi Hàn ~105.000đ/kg cho 50–99kg → 75K/kg là lợi thế lớn
 
 ## 3. Công thức 3 bài/ngày
 | Khung giờ | Mục đích | Dạng |
@@ -39,7 +39,7 @@ Nghiên cứu ngày 19/11/2026. Claude Code dùng file này để soạn bài m�
 | 3 | Checklist đồ gửi cho con du học Hàn mùa đông | Poster C: Vị quê nhà tới tay con ở Hàn | Ảnh/câu chuyện khách nhận hàng (xin phép khách) |
 | 4 | Gửi hàng đi Hàn cần giấy tờ gì? 90S lo khai báo | Ví dụ tính tiền: thùng 25kg đi Hàn = 1.875.000đ | Video cân – đo – báo giá minh bạch |
 | 5 | Quà Tết gửi Úc nên chọn gì để không bị giữ | Poster D: Gửi quà sang Úc tới tay trước Tết | Đếm ngược: còn X tuần để gửi Tết |
-| 6 | Ở tỉnh xa gửi thế nào? Gửi chành xe về kho 90S | Free pickup 30km HCM–BD–ĐN (đơn từ 20kg) | Hỏi đáp: comment món muốn gửi, 90S trả lời được/không |
+| 6 | Ở tỉnh xa gửi thế nào? Gửi chành xe về kho 90S | Free pickup 30km HCM–BD–ĐN (hàng nhỏ lớn đều nhận) | Hỏi đáp: comment món muốn gửi, 90S trả lời được/không |
 | 7 | Mẹo đóng gói đồ khô, chất lỏng an toàn | Poster A: tổng quan dịch vụ | Tổng kết tuần: số thùng đã bay (số thật của 90S) |
 
 Ví dụ tính tiền chỉ đúng khi giá 75K/kg áp dụng cho cả thùng 25kg – xác nhận với chủ page trước khi đăng.

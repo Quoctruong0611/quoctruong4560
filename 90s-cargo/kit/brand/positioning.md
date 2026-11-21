@@ -3,9 +3,9 @@ Last updated: 2026-11-21 by /positioning-angles (Claude)
 
 ## Chosen Angle
 Angle: Biết hết trước khi hàng bay (kẻ thù: phí phát sinh và hàng bị giữ)
-Segment or moment: Gia đình gửi đồ cho con/người thân đang du học, lao động ở Hàn Quốc và Úc; gửi thùng lớn từ 21kg
+Segment or moment: Gia đình gửi đồ cho con/người thân đang du học, lao động ở Hàn Quốc và Úc; gửi thùng lớn hay nhỏ
 Statement: Gửi Hàn 75K/kg, Úc 135K/kg – 90S kiểm tra, phân loại, cân đo và chụp hình báo giá trước khi đóng thùng, nên bạn biết hết trước khi hàng bay.
-Offer: Hàn 75.000đ/kg và Úc 135.000đ/kg cho đơn từ 21kg; miễn phí lấy hàng bán kính 30km (HCM, Bình Dương, Đồng Nai) cho đơn từ 20kg; ở tỉnh gửi chành xe về kho; có mã tracking; giao 3–5 ngày kể từ ngày bay
+Offer: Hàn 75.000đ/kg và Úc 135.000đ/kg; miễn phí lấy hàng bán kính 30km (HCM, Bình Dương, Đồng Nai) – hàng nhỏ lớn đều nhận; ở tỉnh gửi chành xe về kho; có mã tracking; giao 3–5 ngày kể từ ngày bay
 Guarantee: none offered today
 Mechanism: Quy trình 4 bước 90S đang làm: nhận hàng → kiểm tra, phân loại hàng khô/chất lỏng → hút chân không, đóng thùng, cân kg, đo kích thước, chụp hình báo giá → bay, có mã tracking tới tận tay
 
@@ -23,7 +23,7 @@ Mechanism: Quy trình 4 bước 90S đang làm: nhận hàng → kiểm tra, ph�
 | VHE | Không nêu | Miễn phí thủ tục, đền bù 100% theo kê khai, nhận từ 0,5kg |
 | DHL, EMS | Cao, tính theo kg đầu | Thương hiệu lớn, nhanh |
 | Việt An Express | Không nêu | Nhận hàng khó, thuốc, thực phẩm đi Hàn |
-Kết luận: giá 75K (Hàn) và 135K (Úc) cho đơn từ 21kg thấp hơn rõ rệt các mức công khai tìm được → đặt giá lên đầu, nhưng đừng chỉ bán giá; ghép với "biết hết trước khi bay".
+Kết luận: giá 75K (Hàn) và 135K (Úc) thấp hơn rõ rệt các mức công khai tìm được → đặt giá lên đầu, nhưng đừng chỉ bán giá; ghép với "biết hết trước khi bay".
 
 ## VoC Language Bank (câu chữ khách hay dùng)
 Xem voc.md.

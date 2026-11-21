@@ -2,7 +2,7 @@
 Cách dùng:
   python3 poster_anh.py <anh.jpg> <ra.jpg> "<NHÃN NHỎ>" "<DÒNG 1>" "<CHỮ NỔI BẬT>" "<DÒNG 3>" "chip1|chip2|chip3"
 Ví dụ:
-  python3 poster_anh.py ../anh-thuc-te/kho_01.jpg out.jpg "ẢNH THẬT TẠI KHO 90S" "HÀNG ĐI HÀN" "75K/KG" "CÂN – ĐO – CHỤP HÌNH TRƯỚC KHI BAY" "Đơn từ 21kg|Giao 3–5 ngày từ ngày bay|Lấy hàng tận nhà"
+  python3 poster_anh.py ../anh-thuc-te/kho_01.jpg out.jpg "ẢNH THẬT TẠI KHO 90S" "HÀNG ĐI HÀN" "75K/KG" "CÂN – ĐO – CHỤP HÌNH TRƯỚC KHI BAY" "Free pickup nhỏ lớn đều nhận|Giao 3–5 ngày từ ngày bay|Lấy hàng tận nhà"
 Ảnh được cắt vừa khung (object-fit: cover). Chọn ảnh rõ, không lộ tên/SĐT/địa chỉ người nhận trên nhãn thùng."""
 import asyncio, base64, mimetypes, pathlib, sys
 from playwright.async_api import async_playwright

@@ -134,10 +134,10 @@ def poster_A():
 <div class='lead'><b>90S Cargo Express</b> – nhận hàng tận nơi, đóng gói kỹ, khai báo hải quan trọn gói. Một thùng hàng, tới tận tay người thân.</div>
 <div class='sec' style='left:56px;top:680px'>DỊCH VỤ CỦA CHÚNG TÔI</div>
 <div class='svc'>
-<div class='sv'><div class='b'>{ic('plane',36)}</div><div><h5>CHUYÊN TUYẾN HÀN QUỐC</h5><p>Chỉ 75K/kg cho đơn từ 21kg</p></div></div>
-<div class='sv'><div class='b'>{ic('plane',36)}</div><div><h5>GỬI HÀNG ĐI ÚC</h5><p>Chỉ 135K/kg cho đơn từ 21kg</p></div></div>
+<div class='sv'><div class='b'>{ic('plane',36)}</div><div><h5>CHUYÊN TUYẾN HÀN QUỐC</h5><p>Chỉ 75K/kg</p></div></div>
+<div class='sv'><div class='b'>{ic('plane',36)}</div><div><h5>GỬI HÀNG ĐI ÚC</h5><p>Chỉ 135K/kg</p></div></div>
 <div class='sv'><div class='b'>{ic('doc',34)}</div><div><h5>KHAI BÁO & THÔNG QUAN</h5><p>Hàng cá nhân và doanh nghiệp</p></div></div>
-<div class='sv'><div class='b'>{ic('truck',36)}</div><div><h5>GOM HÀNG ĐẠI LÝ</h5><p>Free pickup 30km cho đơn từ 20kg</p></div></div>
+<div class='sv'><div class='b'>{ic('truck',36)}</div><div><h5>GOM HÀNG ĐẠI LÝ</h5><p>Free pickup 30km – hàng nhỏ lớn đều nhận</p></div></div>
 </div>
 <div class='sec' style='right:200px;top:705px'>VÌ SAO CHỌN 90S?</div>
 <div class='why'>
@@ -178,7 +178,7 @@ text-shadow:0 2px 0 #E06A10,0 4px 0 #D2600C,0 6px 0 #C4560A,0 8px 0 #B44C08,0 10
 <div class='abs' style='top:36px;left:40px'>{logo(dark=True,size=88)}</div>
 <div class='pill'>GỬI HÀNG ĐI HÀN QUỐC</div>
 <div class='t1 A'>GỬI NHIỀU</div><div class='t2 A'>TIẾT KIỆM</div>
-<div class='t3'>CHỈ <b>75K/KG</b> CHO ĐƠN TỪ 21KG · TỚI TAY SAU 3–5 NGÀY BAY</div>
+<div class='t3'>CHỈ <b>75K/KG</b> TỚI TAY SAU 3–5 NGÀY BAY</div>
 <div class='abs' style='left:-60px;top:690px'>{plane(300,-8)}</div>
 <div class='abs' style='right:-60px;top:720px'>{plane(270,6,False)}</div>
 <svg class='city' viewBox='0 0 1080 240' preserveAspectRatio='none'>{bld}</svg>
@@ -188,7 +188,7 @@ text-shadow:0 2px 0 #E06A10,0 4px 0 #D2600C,0 6px 0 #C4560A,0 8px 0 #B44C08,0 10
 <div class='i4'>{ic('shield',44)}<div><h4>ĐÓNG GÓI KỸ</h4><p>Hút chân không, thùng chắc</p></div></div>
 <div class='i4'>{ic('clock',44)}<div><h4>3–5 NGÀY</h4><p>Kể từ ngày bay</p></div></div>
 <div class='i4'>{ic('pin',44)}<div><h4>TRACKING</h4><p>Theo dõi tới tận tay</p></div></div>
-<div class='i4'>{ic('truck',44)}<div><h4>FREE PICKUP</h4><p>30km, đơn từ 20kg</p></div></div>
+<div class='i4'>{ic('truck',44)}<div><h4>FREE PICKUP</h4><p>30km, nhỏ lớn đều nhận</p></div></div>
 </div>
 <div class='cta'><div class='s A'>GỬI LÀ YÊN TÂM<small>KHAI BÁO & THÔNG QUAN TRỌN GÓI</small></div>
 <div class='btn'>NHẮN TIN NGAY {ic('arrow',30)}</div><div class='ph'>{ic('phone',34,OR1)}{PHONE}</div></div>"""
@@ -221,7 +221,7 @@ def poster_C():
 <div class='abs' style='right:30px;top:120px'>{plane(470,-16)}</div>
 <div class='abs' style='left:628px;top:520px;font-size:54px'>🇻🇳</div><div class='abs' style='left:930px;top:395px;font-size:54px'>🇰🇷</div>
 <div class='h A'><div class='a'>MỘT THÙNG HÀNG</div><div class='b'>VỊ QUÊ NHÀ</div><div class='c'>TỚI TAY CON Ở HÀN</div></div>
-<div class='sub'>Chỉ 75K/kg · đơn từ 21kg<span>Đồ khô, gia vị, quần áo… nhắn danh sách để 90S kiểm tra món gửi được</span></div>
+<div class='sub'>Chỉ 75K/kg<span>Đồ khô, gia vị, quần áo… nhắn danh sách để 90S kiểm tra món gửi được</span></div>
 <div class='abs' style='right:60px;top:640px'>{bigbox(400)}</div>
 {wave}
 <div class='circ'>
@@ -261,7 +261,7 @@ def poster_D():
 <div class='pre'>CÙNG 90S CARGO EXPRESS</div>
 <div class='h A'>GỬI QUÀ SANG ÚC<br><span>TỚI TAY TRƯỚC TẾT</span></div>
 <div class='s'>Kiểm tra hàng kỹ – Úc kiểm dịch rất chặt.</div>
-<div class='price'><p>CƯỚC ƯU ĐÃI</p><b class='A'>135K</b><small>/kg · đơn từ 21kg</small></div>
+<div class='price'><p>CƯỚC ƯU ĐÃI</p><b class='A'>135K</b><small>/kg</small></div>
 {runway}
 <div class='abs' style='left:50%;top:470px;transform:translateX(-50%)'>{plane(640,-12)}</div>
 <div class='abs' style='left:50%;top:800px;transform:translateX(-50%)'>{bigbox(330)}</div>
@@ -329,8 +329,8 @@ def poster_F():
 """
     body = f"""<div class='abs' style='top:40px;left:56px'>{logo(size=88)}</div>
 <div class='h A'><div class='a'>GỬI HÀNG ĐI HÀN</div><div class='b'>LẤY TẬN NHÀ</div><div class='c'>MIỄN PHÍ 30KM</div></div>
-<div class='price'><p>🇰🇷 HÀN QUỐC</p><b class='A'>75K</b><small>/kg · đơn từ 21kg</small></div>
-<div class='sub'>Free pickup cho <b>đơn từ 20kg</b>. Ở tỉnh xa? Gửi chành xe về kho, <b>90S chụp hình & đóng gói</b> giúp bạn.</div>
+<div class='price'><p>🇰🇷 HÀN QUỐC</p><b class='A'>75K</b><small>/kg</small></div>
+<div class='sub'>Free pickup, <b>hàng nhỏ lớn đều nhận</b>. Ở tỉnh xa? Gửi chành xe về kho, <b>90S chụp hình & đóng gói</b> giúp bạn.</div>
 <div class='zone'><div>{ic('pin',22)}TP.HCM</div><div>{ic('pin',22)}BÌNH DƯƠNG</div><div>{ic('pin',22)}ĐỒNG NAI</div></div>
 <div class='ring'><div class='km'>BÁN KÍNH 30KM</div>{bigbox(300)}</div>
 <div class='abs' style='left:70px;top:830px;color:{NAVY}'>{ic('truck',150,NAVY)}</div>
@@ -364,7 +364,7 @@ def poster_G():
 <div class='bub br' style='right:56px;top:770px'>Gạo, đồ khô có bị giữ không? 🤔</div>
 <div class='abs' style='left:50%;top:560px;transform:translateX(-50%);opacity:.0'></div>
 <div class='warn'>Úc kiểm dịch rất chặt – nhất là thực phẩm</div>
-<div class='ans'>{ic('chat',64,'#fff')}<div>Comment hoặc nhắn <b>danh sách đồ</b> – 90S kiểm tra từng món trước khi gửi. Cước <b>135K/kg</b> cho đơn từ 21kg.</div></div>
+<div class='ans'>{ic('chat',64,'#fff')}<div>Comment hoặc nhắn <b>danh sách đồ</b> – 90S kiểm tra từng món trước khi gửi. Cước <b>135K/kg</b>.</div></div>
 {bar()}"""
     return html(body, css)
 

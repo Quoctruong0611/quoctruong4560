@@ -32,4 +32,4 @@ A. Xử lý tại kho – chồng thùng trên pallet trong kho (bài quy trình
 B. Tuyến bay – máy bay cất cánh + bản đồ chấm VN → nước đến + 3 icon lợi ích.
 C. Theo dõi đơn – laptop/điện thoại hiển thị mã tracking (không ghi số đơn thật).
 D. Giao tận tay – xe giao hàng + thùng hàng (bài lấy hàng tận nhà 30km).
-E. Bảng giá / nhân viên – nhân viên áo 90S cầm thùng + 3–4 thẻ thông tin (giá/kg, đơn từ 21kg, 3–5 ngày từ ngày bay, lấy hàng tận nhà).
+E. Bảng giá / nhân viên – nhân viên áo 90S cầm thùng + 3–4 thẻ thông tin (giá/kg, free pickup nhỏ lớn đều nhận, 3–5 ngày từ ngày bay, lấy hàng tận nhà).

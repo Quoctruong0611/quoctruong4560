@@ -8,11 +8,11 @@ Tìm khách có nhu cầu gửi hàng đi nước ngoài, ưu tiên tuyến **H�
 Anh Trường muốn: đăng 3 bài/ngày tự động, đăng ngay 5 bài đầu, chạy quảng cáo trên các bài đó.
 
 ## Thông tin doanh nghiệp (do chủ page cung cấp – chỉ dùng đúng các thông tin này)
-- Hàn Quốc: giá ưu đãi **75.000đ/kg cho đơn từ 21kg**
-- Úc: giá ưu đãi **135.000đ/kg cho đơn từ 21kg**
+- Hàn Quốc: giá ưu đãi **75.000đ/kg**
+- Úc: giá ưu đãi **135.000đ/kg**
 - Thời gian giao: **3–5 ngày kể từ ngày bay**
-- Miễn phí pickup nội ô HCM, Bình Dương, Đồng Nai bán kính 30km cho đơn hàng 20kg
-  (đang hiểu là "đơn từ 20kg" – chưa xác nhận lại)
+- TỪ 21/11/2026: KHÔNG ghi "đơn từ 21kg" hay "đơn từ 20kg" ở bất kỳ đâu. Thông điệp lấy hàng: "Free pickup – nhỏ lớn gì 90S cũng nhận".
+- Miễn phí pickup nội ô HCM, Bình Dương, Đồng Nai bán kính 30km – hàng nhỏ hay lớn đều nhận (chủ page xác nhận 21/11/2026)
 - Hoặc khách gửi chành xe / công ty pickup về kho, 90S chụp hình và đóng gói
 - Quy trình: 1) Nhận hàng 2) Kiểm tra, phân loại hàng khô – chất lỏng
   3) Đóng thùng, hỗ trợ hút chân không, cân kg, đo kích thước, báo giá
