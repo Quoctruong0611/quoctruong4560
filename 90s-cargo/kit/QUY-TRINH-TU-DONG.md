@@ -13,3 +13,10 @@
 - Mỗi ngày ít nhất 1 bài (ưu tiên 19:30 hậu trường và 11:30 bán hàng) dùng ảnh thật làm nền poster bằng `kit/poster_anh.py`.
 - Chủ page bỏ ảnh mới vào `Pictures/90s-cargo-marketing/anh-thuc-te/moi` trên máy tính và báo Claude trong chat; Claude nén ảnh, kiểm tra thông tin cá nhân, đưa lên GitHub và thêm vào danh mục.
 - Make scenario 10194367 nhận thêm anh_1…anh_5 (link https). Bài = poster (image_url) + 3–5 ảnh thật. Để trống anh_1 thì chỉ đăng poster như cũ.
+
+## Canva (từ 21/11/2026)
+- Lịch tự động mới: trig_01WxpgLB7mSX2EFbvh43peob (có kết nối Canva). Lịch cũ trig_01FJHysxWN9jx4fgjAaTaQCd đã TẮT.
+- Logo trên Canva: MAHbh9e867c (bản màu), MAHbiNrXpaw (bản chữ trắng). Tài khoản chưa có Brand Kit.
+- Mẫu đầu tiên: design DAHbhyntXNI "Poster gửi hàng đi Hàn Quốc" (đã sửa logo, lỗi "Galo", số bước, "Gò Dưa").
+- Canva AI hay sai: tự vẽ logo bằng chữ, sai chính tả tiếng Việt, đánh số bước sai → luôn soát và sửa bằng edit-design trước khi xuất.
+- Export Canva không tải được trong sandbox; dùng thẳng link export làm image_url cho Make. Lỗi thì dùng poster2.py/poster_anh.py.
