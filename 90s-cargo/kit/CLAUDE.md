@@ -78,3 +78,11 @@ Anh Trường muốn: đăng 3 bài/ngày tự động, đăng ngay 5 bài đầ
 - File trong `brand/logo/`: `logo-90s-mau.png` (nền trong, dùng trên nền sáng), `logo-90s-trang.png` (chữ 90S trắng, dùng trên nền tối/ảnh), 3 file gốc `logo-goc-*.jpg` (nền trắng, nền xám, nền cam hoàng hôn).
 - Poster: LUÔN dùng hàm `logo()` trong poster2.py (đã nhúng logo thật; dark=True cho nền tối). KHÔNG tự vẽ logo hình tròn hay chữ "90S CARGO" giả. Trên ảnh thật đặt logo màu trong nhãn trắng (poster_anh.py đã làm sẵn).
 - Màu nền poster vẫn giữ navy #0D2B5E + cam như mẫu đã duyệt; cam chính của logo là #F27E29.
+
+## PHONG CÁCH POSTER CHUẨN (từ 21/11/2026 – BẮT BUỘC đọc trước khi làm poster)
+- Đọc `brand/phong-cach-poster.md` (công thức học từ page WinGo Logistics, mẫu ở `brand/mau-tham-khao/`).
+- Brief cho Canva phải mô tả đủ 8 phần: nền ảnh chân thực trời xanh/kho/sân bay · vật thể chính bên phải · logo thật góc trên trái · tiêu đề 3 tầng (dải băng xiên → chữ cực lớn → viên thuốc cam) · mô tả 2 dòng · hàng 3 icon có vạch ngăn (hoặc thẻ giá) · câu script "Biết hết trước khi hàng bay" · chân trang cong có line-art 2 thành phố + ô liên hệ.
+- Xoay vòng 5 kiểu bố cục A–E trong file phong cách, không lặp kiểu 2 ngày liền.
+- Mẫu đã duyệt trên Canva: DAHbhyntXNI (Hàn, kiểu cũ) và DAHbiHLlVd8 (Úc, phong cách mới – dùng làm chuẩn).
+- Canva có thể trả khổ 940x788 dù yêu cầu khổ dọc – vẫn dùng được cho Facebook.
+- Học từ đối thủ nhưng KHÔNG chép cam kết của họ (WinGo ghi "trọn gói, bao thuế, 24/7" – 90S chưa xác nhận).
