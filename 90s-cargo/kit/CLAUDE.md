@@ -86,3 +86,6 @@ Anh Trường muốn: đăng 3 bài/ngày tự động, đăng ngay 5 bài đầ
 - Mẫu đã duyệt trên Canva: DAHbhyntXNI (Hàn, kiểu cũ) và DAHbiHLlVd8 (Úc, phong cách mới – dùng làm chuẩn).
 - Canva có thể trả khổ 940x788 dù yêu cầu khổ dọc – vẫn dùng được cho Facebook.
 - Học từ đối thủ nhưng KHÔNG chép cam kết của họ (WinGo ghi "trọn gói, bao thuế, 24/7" – 90S chưa xác nhận).
+
+## Học bài đối thủ (từ 21/11/2026)
+- Đọc `90s-cargo/doi-thu/README.md` + các file đối thủ. Mỗi ngày tối đa 1 bài lấy ý tưởng từ đó, viết lại theo quy tắc (không chép chữ/hình, không chép cam kết chưa xác nhận), ghi "Đã dùng".
