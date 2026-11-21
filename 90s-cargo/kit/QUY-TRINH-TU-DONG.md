@@ -12,3 +12,4 @@
 - Ảnh thật nằm ở `90s-cargo/anh-thuc-te/`, mô tả trong `danh-muc.md`.
 - Mỗi ngày ít nhất 1 bài (ưu tiên 19:30 hậu trường và 11:30 bán hàng) dùng ảnh thật làm nền poster bằng `kit/poster_anh.py`.
 - Chủ page bỏ ảnh mới vào `Pictures/90s-cargo-marketing/anh-thuc-te/moi` trên máy tính và báo Claude trong chat; Claude nén ảnh, kiểm tra thông tin cá nhân, đưa lên GitHub và thêm vào danh mục.
+- Make scenario 10194367 nhận thêm anh_1…anh_5 (link https). Bài = poster (image_url) + 3–5 ảnh thật. Để trống anh_1 thì chỉ đăng poster như cũ.
