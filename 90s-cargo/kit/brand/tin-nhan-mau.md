@@ -2,6 +2,8 @@
 Mục tiêu: trả lời trong 5 phút, hỏi đủ 4 ý, báo giá, chốt lịch lấy hàng, nhắc lại khách chưa chốt.
 Cài trong Meta Business Suite > Hộp thư > Tự động hóa (Tin nhắn chào, Câu hỏi thường gặp, Câu trả lời đã lưu).
 
+**Trạng thái (21/11/2026):** ĐÃ CÀI trên Meta Business Suite – Tin trả lời tự động (bật, Messenger, dùng mục 1 với số 1. 2. 3. 4. thay emoji) và 5 câu trả lời lưu sẵn (giahan, giauc, layhang, quytrinh, moncam). CHƯA cài tin vắng mặt: chờ chủ page báo giờ làm việc.
+
 ## 1. Tin nhắn chào tự động (khi khách nhắn lần đầu)
 Dạ 90S Cargo Express chào anh/chị ạ! Để báo giá nhanh, anh/chị cho 90S xin:
 1️⃣ Gửi đi nước nào (Hàn Quốc / Úc)?
@@ -14,11 +16,11 @@ Dạ 90S Cargo Express chào anh/chị ạ! Để báo giá nhanh, anh/chị cho
 Dạ 90S đã nhận tin nhắn của anh/chị. Sáng mai 90S báo giá ngay ạ. Anh/chị cứ gửi trước danh sách đồ, 90S kiểm tra món nào gửi được giúp mình.
 
 ## 3. Câu trả lời đã lưu
-**/gia-han** – Gửi Hàn Quốc giá ưu đãi 75.000đ/kg cho đơn từ 21kg, giao 3–5 ngày kể từ ngày bay, có mã tracking tới tận tay. 90S cân, đo, chụp hình thùng hàng gửi anh/chị trước khi báo giá chốt ạ.
-**/gia-uc** – Gửi Úc giá ưu đãi 135.000đ/kg cho đơn từ 21kg, giao 3–5 ngày kể từ ngày bay, có mã tracking. Úc kiểm dịch thực phẩm rất chặt, anh/chị gửi danh sách đồ để 90S kiểm tra trước nhé.
-**/lay-hang** – 90S lấy hàng tận nơi miễn phí trong bán kính 30km (TP.HCM, Bình Dương, Đồng Nai) cho đơn từ 20kg. Ở tỉnh xa, anh/chị gửi chành xe về kho 191A Gò Dưa, P. Tam Bình, Thủ Đức; 90S nhận, chụp hình và đóng gói giúp ạ.
-**/quy-trinh** – 4 bước: (1) nhận hàng, (2) kiểm tra, phân loại hàng khô – chất lỏng, (3) hút chân không, đóng thùng, cân, đo, chụp hình báo giá, (4) bay và gửi mã tracking tới tận tay người nhận.
-**/mon-cam** – Một số món dễ bị hải quan giữ: thịt khô, ruốc, thịt gà vịt chế biến, trái cây tươi, cây còn đất (Hàn); Úc còn gắt hơn với thực phẩm. Anh/chị gửi danh sách, 90S kiểm tra từng món trước khi đóng thùng ạ.
+**giahan** – Gửi Hàn Quốc giá ưu đãi 75.000đ/kg cho đơn từ 21kg, giao 3–5 ngày kể từ ngày bay, có mã tracking tới tận tay. 90S cân, đo, chụp hình thùng hàng gửi anh/chị trước khi báo giá chốt ạ.
+**giauc** – Gửi Úc giá ưu đãi 135.000đ/kg cho đơn từ 21kg, giao 3–5 ngày kể từ ngày bay, có mã tracking. Úc kiểm dịch thực phẩm rất chặt, anh/chị gửi danh sách đồ để 90S kiểm tra trước nhé.
+**layhang** – 90S lấy hàng tận nơi miễn phí trong bán kính 30km (TP.HCM, Bình Dương, Đồng Nai) cho đơn từ 20kg. Ở tỉnh xa, anh/chị gửi chành xe về kho 191A Gò Dưa, P. Tam Bình, Thủ Đức; 90S nhận, chụp hình và đóng gói giúp ạ.
+**quytrinh** – 4 bước: (1) nhận hàng, (2) kiểm tra, phân loại hàng khô – chất lỏng, (3) hút chân không, đóng thùng, cân, đo, chụp hình báo giá, (4) bay và gửi mã tracking tới tận tay người nhận.
+**moncam** – Một số món dễ bị hải quan giữ: thịt khô, ruốc, thịt gà vịt chế biến, trái cây tươi, cây còn đất (Hàn); Úc còn gắt hơn với thực phẩm. Anh/chị gửi danh sách, 90S kiểm tra từng món trước khi đóng thùng ạ.
 
 ## 4. Nhắc lại khách chưa chốt
 - Sau 24 giờ: Dạ anh/chị ơi, 90S giữ giá 75K/kg (Hàn) / 135K/kg (Úc) cho mình. Anh/chị muốn 90S qua lấy hàng ngày nào ạ?
