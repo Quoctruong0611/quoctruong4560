@@ -89,3 +89,6 @@ Anh Trường muốn: đăng 3 bài/ngày tự động, đăng ngay 5 bài đầ
 
 ## Học bài đối thủ (từ 21/11/2026)
 - Đọc `90s-cargo/doi-thu/README.md` + các file đối thủ. Mỗi ngày tối đa 1 bài lấy ý tưởng từ đó, viết lại theo quy tắc (không chép chữ/hình, không chép cam kết chưa xác nhận), ghi "Đã dùng".
+
+## Cách trình bày caption (từ 21/11/2026 – BẮT BUỘC)
+- Viết caption theo `brand/cach-trinh-bay-caption.md`: tiêu đề IN HOA + hook nỗi lo khách → mục có tiêu đề IN HOA, gạch đầu dòng 🔸 → câu hỏi kéo bình luận → đường kẻ ━━━ → khối chữ ký 90S (Zalo, kho, VP) → hashtag #90SCargo + hashtag từ khóa không dấu.
