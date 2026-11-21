@@ -6,3 +6,9 @@
 - Khung giờ: 07:30 (hướng dẫn), 11:30 (bán hàng/poster giá), 19:30 (câu chuyện/hỏi đáp).
 - Ghi mỗi bài vào kit/da-dang.md; không lặp chủ đề trong 7 ngày gần nhất.
 - Chỉ dùng thông tin trong kit/CLAUDE.md. Không bịa giá, thời gian, cam kết (24/7, bảo hiểm, đền bù) hay số liệu.
+
+
+## Ảnh thực tế (từ 21/11/2026)
+- Ảnh thật nằm ở `90s-cargo/anh-thuc-te/`, mô tả trong `danh-muc.md`.
+- Mỗi ngày ít nhất 1 bài (ưu tiên 19:30 hậu trường và 11:30 bán hàng) dùng ảnh thật làm nền poster bằng `kit/poster_anh.py`.
+- Chủ page bỏ ảnh mới vào `Pictures/90s-cargo-marketing/anh-thuc-te/moi` trên máy tính và báo Claude trong chat; Claude nén ảnh, kiểm tra thông tin cá nhân, đưa lên GitHub và thêm vào danh mục.

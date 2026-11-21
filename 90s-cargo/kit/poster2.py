@@ -375,4 +375,5 @@ async def main(keys):
             await pg.screenshot(path=str(OUT / f"{k}.jpg"), type="jpeg", quality=92)
         await b.close()
 
-asyncio.run(main(sys.argv[1:] or list(POSTERS)))
+if __name__ == "__main__":
+    asyncio.run(main(sys.argv[1:] or list(POSTERS)))
