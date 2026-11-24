@@ -15,3 +15,6 @@
 | 2026-11-23 07:30 | Úc – Tách hàng khô – chất lỏng trước khi đóng thùng (hẹn giờ, kiểu B) | Canva DAHbptrd53Y; không ảnh thật (thư viện trống) |
 | 2026-11-23 11:30 | Hàn 75K/kg – có mã tracking theo dõi tới tay (hẹn giờ, kiểu C) | Dự phòng 20261123_1130_han_tracking.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
 | 2026-11-23 19:30 | Hỏi đáp Úc: sắp sang Úc học, đồ nhiều – gửi thùng 135K/kg (hẹn giờ, kiểu E) | Dự phòng 20261123_1930_uc_du_hoc.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
+| 2026-11-25 07:30 | Hàn – Chuẩn bị 3 thứ trước khi nhắn 90S (danh sách đồ, chất lỏng để riêng, địa chỉ lấy hàng) (hẹn giờ, kiểu A) | Dự phòng 20261125_0730_han_chuan_bi.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
+| 2026-11-25 11:30 | Úc 135K/kg – 90S tới tận nhà lấy hàng, free pickup 30km (hẹn giờ, kiểu D) | Dự phòng 20261125_1130_uc_free_pickup.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
+| 2026-11-25 19:30 | Hỏi đáp Hàn: gửi đi Hàn mất mấy ngày? 3–5 ngày kể từ ngày bay (hẹn giờ, kiểu B) | Dự phòng 20261125_1930_han_may_ngay.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
