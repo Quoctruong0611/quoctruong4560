@@ -121,7 +121,71 @@ def poster_uc_kho_long():
 <div class='ii'><div class='c'>{ic('scale',44)}</div><h4>ĐÓNG THÙNG</h4><p>Hút chân không, cân, đo, chụp hình</p></div></div>"""
     return page(body, "uc")
 
-POSTERS = {"han_tracking": poster_han_tracking, "uc_du_hoc": poster_uc_du_hoc, "uc_kho_long": poster_uc_kho_long}
+def checklist():
+    rows = "".join(f"<div style='display:flex;align-items:center;gap:12px;margin:16px 0'><div style='width:26px;height:26px;border-radius:6px;border:3px solid {OR};flex:none;display:flex;align-items:center;justify-content:center;color:{OR};font-weight:900;font-size:20px'>✓</div><div style='height:12px;width:{w}px;border-radius:6px;background:#D5DCE4'></div></div>"
+                   for w in (150, 120, 170, 135))
+    return f"""<div class='abs' style='right:70px;top:430px;width:270px;padding:26px 24px;background:#fffdf6;border-radius:14px;box-shadow:0 18px 36px rgba(0,0,0,.25);transform:rotate(5deg)'>
+<div style='font-weight:900;font-size:24px;color:{CH}'>DANH SÁCH ĐỒ</div>{rows}</div>"""
+
+def poster_han_chuan_bi():
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>GỬI ĐỒ SANG HÀN QUỐC</span></div>
+<div class='big' style='font-size:104px'>CHUẨN BỊ<br>3 THỨ</div>
+<div class='pill' style='top:500px'>TRƯỚC KHI NHẮN 90S</div>
+<div class='desc' style='top:600px;width:600px'>Có danh sách sớm – 90S <b>kiểm tra,<br>phân loại</b> trước khi đóng thùng.</div>
+{checklist()}
+<div class='abs' style='right:60px;top:660px'>{bigbox(240)}</div>
+<div class='icons' style='top:850px'>
+<div class='ii'><div class='c'>{ic('doc',44)}</div><h4>DANH SÁCH ĐỒ</h4><p>Nhắn 90S kiểm tra trước</p></div>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>CHẤT LỎNG ĐỂ RIÊNG</h4><p>Phân loại hàng khô – lỏng</p></div>
+<div class='ii'><div class='c'>{ic('pin',44)}</div><h4>ĐỊA CHỈ LẤY HÀNG</h4><p>Free pickup 30km hoặc gửi chành xe</p></div></div>"""
+    return page(body, "han")
+
+def van():
+    return f"""<svg viewBox='0 0 420 220' width='420' class='abs' style='right:40px;top:760px'>
+<rect x='10' y='40' width='250' height='140' rx='14' fill='#fff' stroke='{CH}' stroke-width='5'/>
+<path d='M260 80h80l60 55v45H260z' fill='{OR}' stroke='{CH}' stroke-width='5' stroke-linejoin='round'/>
+<path d='M285 95h50l35 35h-85z' fill='#CFE8FA'/><rect x='10' y='150' width='250' height='14' fill='{OR}'/>
+<circle cx='80' cy='185' r='28' fill='{CH}'/><circle cx='80' cy='185' r='11' fill='#ddd'/>
+<circle cx='330' cy='185' r='28' fill='{CH}'/><circle cx='330' cy='185' r='11' fill='#ddd'/>
+<text x='135' y='115' text-anchor='middle' font-family='Montserrat' font-weight='900' font-size='38' fill='{CH}'>FREE</text>
+<text x='135' y='142' text-anchor='middle' font-family='Montserrat' font-weight='800' font-size='22' fill='{OR}'>PICKUP 30KM</text></svg>"""
+
+def poster_uc_pickup():
+    cards = [("box","135.000đ/kg","Gửi hàng đi Úc"),("truck","FREE PICKUP 30KM","HCM – Bình Dương – Đồng Nai"),
+             ("scale","NHỎ LỚN ĐỀU NHẬN","Cân, đo, chụp hình báo giá"),("clock","3–5 NGÀY","Kể từ ngày bay")]
+    c = "".join(f"<div class='card'><div class='c'>{ic(i,36)}</div><div><b>{a}</b><span>{b}</span></div></div>" for i,a,b in cards)
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>GỬI HÀNG ĐI ÚC</span></div>
+<div class='big' style='font-size:96px'>90S TỚI TẬN<br>NHÀ LẤY HÀNG</div>
+<div class='pill' style='top:490px'>135.000Đ/KG – FREE PICKUP</div>
+<div class='desc' style='top:590px;width:1000px;font-size:26px'>Bán kính 30km TP.HCM – Bình Dương – Đồng Nai.<br>Hàng nhỏ hay lớn, <b>90S đều nhận</b>.</div>
+<div class='abs' style='left:40px;top:705px'>{c}</div>
+{van()}
+<div class='abs' style='right:230px;top:705px'>{bigbox(150)}</div>"""
+    return page(body, "uc")
+
+def route_map():
+    return f"""<svg viewBox='0 0 440 330' width='440' class='abs' style='right:30px;top:470px'>
+<circle cx='220' cy='165' r='160' fill='rgba(255,255,255,.55)'/>
+<path d='M90 250 Q200 40 350 90' stroke='{OR}' stroke-width='5' stroke-dasharray='12 9' fill='none'/>
+<circle cx='90' cy='250' r='16' fill='{CH}'/><circle cx='350' cy='90' r='16' fill='{OR}'/>
+<text x='90' y='295' text-anchor='middle' font-family='Montserrat' font-weight='900' font-size='26' fill='{CH}'>🇻🇳 TP.HCM</text>
+<text x='300' y='50' text-anchor='middle' font-family='Montserrat' font-weight='900' font-size='26' fill='{CH}'>🇰🇷 HÀN QUỐC</text>
+<g transform='translate(215 115) rotate(35)'><path d='M21 15.5v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V8.5l-8 5v2l8-2.5V18l-2 1.5V21l3.5-1 3.5 1v-1.5L13 18v-5z' fill='{CH}' transform='scale(2.6) translate(-12 -12)'/></g></svg>"""
+
+def poster_han_may_ngay():
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>HỎI ĐÁP TUYẾN HÀN</span></div>
+<div class='big' style='font-size:92px'>GỬI ĐI HÀN<br>MẤT MẤY NGÀY?</div>
+<div class='pill' style='top:490px'>3–5 NGÀY KỂ TỪ NGÀY BAY</div>
+<div class='desc' style='top:590px;width:560px'>Hỏi 90S ngày bay gần nhất<br>để biết hàng <b>tới tay khi nào</b>.</div>
+{route_map()}
+<div class='icons' style='top:860px'>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>ĐÓNG THÙNG</h4><p>Cân, đo, chụp hình báo giá</p></div>
+<div class='ii'><div class='c'>{ic('plane',44)}</div><h4>ĐỢI NGÀY BAY</h4><p>Nhắn 90S hỏi ngày bay</p></div>
+<div class='ii'><div class='c'>{ic('pin',44)}</div><h4>MÃ TRACKING</h4><p>Theo dõi tới tay người nhận</p></div></div>"""
+    return page(body, "han")
+
+POSTERS = {"han_tracking": poster_han_tracking, "uc_du_hoc": poster_uc_du_hoc, "uc_kho_long": poster_uc_kho_long,
+           "han_chuan_bi": poster_han_chuan_bi, "uc_pickup": poster_uc_pickup, "han_may_ngay": poster_han_may_ngay}
 
 async def main(key, out):
     async with async_playwright() as p:
