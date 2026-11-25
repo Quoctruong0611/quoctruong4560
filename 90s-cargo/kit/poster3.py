@@ -184,7 +184,54 @@ def poster_han_may_ngay():
 <div class='ii'><div class='c'>{ic('pin',44)}</div><h4>MÃ TRACKING</h4><p>Theo dõi tới tay người nhận</p></div></div>"""
     return page(body, "han")
 
-POSTERS = {"han_tracking": poster_han_tracking, "uc_du_hoc": poster_uc_du_hoc, "uc_kho_long": poster_uc_kho_long,
+def route_map_uc():
+    return f"""<svg viewBox='0 0 440 330' width='400' class='abs' style='right:30px;top:500px'>
+<circle cx='220' cy='165' r='160' fill='rgba(255,255,255,.55)'/>
+<path d='M110 70 Q330 90 330 250' stroke='{OR}' stroke-width='5' stroke-dasharray='12 9' fill='none'/>
+<circle cx='110' cy='70' r='16' fill='{CH}'/><circle cx='330' cy='250' r='16' fill='{OR}'/>
+<text x='120' y='40' text-anchor='middle' font-family='Montserrat' font-weight='900' font-size='26' fill='{CH}'>🇻🇳 TP.HCM</text>
+<text x='300' y='300' text-anchor='middle' font-family='Montserrat' font-weight='900' font-size='26' fill='{CH}'>🇦🇺 ÚC</text>
+<g transform='translate(290 140) rotate(150)'><path d='M21 15.5v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V8.5l-8 5v2l8-2.5V18l-2 1.5V21l3.5-1 3.5 1v-1.5L13 18v-5z' fill='{CH}' transform='scale(2.6) translate(-12 -12)'/></g></svg>"""
+
+def poster_uc_hoi_truoc():
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>GỬI ĐỒ SANG ÚC</span></div>
+<div class='big' style='font-size:96px'>5 MÓN CẦN<br>HỎI TRƯỚC</div>
+<div class='pill' style='top:490px;font-size:32px'>TRƯỚC KHI BỎ VÀO THÙNG</div>
+<div class='desc' style='top:590px;width:560px;font-size:25px'>Úc kiểm soát thực phẩm rất chặt.<br>Nhắn danh sách đồ, <b>90S kiểm tra<br>trước khi đóng thùng</b>.</div>
+{route_map_uc()}
+<div class='abs' style='right:20px;top:250px'>{plane(330,-12,livery=False)}</div>
+<div class='icons' style='top:830px'>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>GẠO – LÁ CHUỐI</h4><p>Hỏi 90S trước khi gửi</p></div>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>MĂNG TƯƠI</h4><p>Hỏi 90S trước khi gửi</p></div>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>LINH CHI –<br>ĐÔNG TRÙNG</h4><p>Thảo dược có nấm</p></div></div>"""
+    return page(body, "uc")
+
+def poster_han_bao_gia():
+    cards = [("box","75.000đ/kg","Gửi hàng đi Hàn Quốc"),("scale","CÂN – ĐO – CHỤP HÌNH","Báo giá trước khi chốt"),
+             ("truck","FREE PICKUP 30KM","Nhỏ lớn gì 90S cũng nhận"),("clock","3–5 NGÀY","Kể từ ngày bay")]
+    c = "".join(f"<div class='card'><div class='c'>{ic(i,36)}</div><div><b>{a}</b><span>{b}</span></div></div>" for i,a,b in cards)
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>GỬI HÀNG ĐI HÀN QUỐC</span></div>
+<div class='big' style='font-size:92px'>BIẾT GIÁ<br>TRƯỚC KHI BAY</div>
+<div class='pill' style='top:490px'>HÀN QUỐC 75.000Đ/KG</div>
+<div class='desc' style='top:590px;width:1000px;font-size:26px'>90S cân kg, đo kích thước, chụp hình thùng hàng<br>gửi bạn xem <b>rồi mới chốt giá</b>.</div>
+<div class='abs' style='left:40px;top:705px'>{c}</div>
+<div class='abs' style='right:40px;top:690px'>{bigbox(400)}</div>"""
+    return page(body, "han")
+
+def poster_uc_toi_dau():
+    body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>HỎI ĐÁP TUYẾN ÚC</span></div>
+<div class='big' style='font-size:88px'>THÙNG HÀNG<br>ĐANG TỚI ĐÂU?</div>
+<div class='pill' style='top:490px;font-size:32px'>CÓ MÃ TRACKING TỚI TAY</div>
+<div class='desc' style='top:590px;width:600px'>Hàng bay rồi, người nhà ở Úc<br>theo dõi bằng <b>mã tracking tới tận tay</b>.</div>
+{phone_tracking().replace('🇰🇷 Hàn Quốc','🇦🇺 Úc').replace('top:445px','top:470px')}
+<div class='icons' style='top:870px'>
+<div class='ii'><div class='c'>{ic('box',44)}</div><h4>ĐÓNG THÙNG</h4><p>Cân, đo, chụp hình báo giá</p></div>
+<div class='ii'><div class='c'>{ic('clock',44)}</div><h4>3–5 NGÀY</h4><p>Kể từ ngày bay</p></div>
+<div class='ii'><div class='c'>{ic('pin',44)}</div><h4>MÃ TRACKING</h4><p>Theo dõi tới tay người nhận</p></div></div>"""
+    return page(body, "uc")
+
+POSTERS = {"uc_hoi_truoc": poster_uc_hoi_truoc, "han_bao_gia": poster_han_bao_gia, "uc_toi_dau": poster_uc_toi_dau,
+           "han_tracking": poster_han_tracking, "uc_du_hoc": poster_uc_du_hoc, "uc_kho_long": poster_uc_kho_long,
            "han_chuan_bi": poster_han_chuan_bi, "uc_pickup": poster_uc_pickup, "han_may_ngay": poster_han_may_ngay}
 
 async def main(key, out):
