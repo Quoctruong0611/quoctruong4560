@@ -222,7 +222,7 @@ def poster_uc_toi_dau():
     body = f"""<div class='rib'>{ic('plane',36,'#fff')}<span>HỎI ĐÁP TUYẾN ÚC</span></div>
 <div class='big' style='font-size:88px'>THÙNG HÀNG<br>ĐANG TỚI ĐÂU?</div>
 <div class='pill' style='top:490px;font-size:32px'>CÓ MÃ TRACKING TỚI TAY</div>
-<div class='desc' style='top:590px;width:600px'>Hàng bay rồi, người nhà ở Úc<br>theo dõi bằng <b>mã tracking tới tận tay</b>.</div>
+<div class='desc' style='top:590px;width:600px'>Hàng bay rồi, anh/chị vẫn<br>theo dõi bằng <b>mã tracking tới tận tay</b>.</div>
 {phone_tracking().replace('🇰🇷 Hàn Quốc','🇦🇺 Úc').replace('top:445px','top:470px')}
 <div class='icons' style='top:870px'>
 <div class='ii'><div class='c'>{ic('box',44)}</div><h4>ĐÓNG THÙNG</h4><p>Cân, đo, chụp hình báo giá</p></div>

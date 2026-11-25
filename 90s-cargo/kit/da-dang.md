@@ -18,3 +18,6 @@
 | 2026-11-25 07:30 | Hàn – Chuẩn bị 3 thứ trước khi nhắn 90S (danh sách đồ, chất lỏng để riêng, địa chỉ lấy hàng) (hẹn giờ, kiểu A) | Dự phòng 20261125_0730_han_chuan_bi.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
 | 2026-11-25 11:30 | Úc 135K/kg – 90S tới tận nhà lấy hàng, free pickup 30km (hẹn giờ, kiểu D) | Dự phòng 20261125_1130_uc_free_pickup.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
 | 2026-11-25 19:30 | Hỏi đáp Hàn: gửi đi Hàn mất mấy ngày? 3–5 ngày kể từ ngày bay (hẹn giờ, kiểu B) | Dự phòng 20261125_1930_han_may_ngay.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống) |
+| 2026-11-26 07:30 | ⚠️ CHƯA HẸN GIỜ ĐƯỢC (Make lỗi token Facebook) – Úc: 5 món nên hỏi trước khi bỏ vào thùng (kiểu B) | Dự phòng 20261126_0730_uc_hoi_truoc.jpg (Canva hết lượt AI); không ảnh thật (thư viện trống); caption ở bai-cho-dang/20261126.md |
+| 2026-11-26 11:30 | ⚠️ CHƯA HẸN GIỜ ĐƯỢC (không chạy vì token Facebook lỗi) – Hàn 75K/kg: biết giá trước khi bay (kiểu E) | Dự phòng 20261126_1130_han_bao_gia.jpg; không ảnh thật; caption ở bai-cho-dang/20261126.md |
+| 2026-11-26 19:30 | ⚠️ CHƯA HẸN GIỜ ĐƯỢC (không chạy vì token Facebook lỗi) – Hỏi đáp Úc: thùng hàng đang tới đâu? mã tracking (kiểu C) | Dự phòng 20261126_1930_uc_toi_dau.jpg; không ảnh thật; caption ở bai-cho-dang/20261126.md |
